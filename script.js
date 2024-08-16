@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return null;
             }
 
-            for (let i = 0; i < 50; i++) {
+            for (let i = 0; i < 30; i++) {
                 await sleep(EVENTS_DELAY * delayRandom());
                 const hasCode = await emulateProgress(clientToken, game.promoId);
                 updateProgress(7 / keyCount, 'Emulating progress...');
