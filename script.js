@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return null;
             }
 
-            for (let i = 0; i < 30; i++) {
+            for (let i = 0; i < 11; i++) {
                 await sleep(EVENTS_DELAY * delayRandom());
                 const hasCode = await emulateProgress(clientToken, game.promoId);
                 updateProgress(7 / keyCount, 'Emulating progress...');
@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     sourceCode.addEventListener('click', () => {
-        window.open('https://t.me/tigraytechc', '_blank');
+        window.open('', '_blank');
     });
 
     const generateClientId = () => {
