@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     sourceCode.addEventListener('click', () => {
-        window.open('https://t.me/tigraytechc', '_blank');
+        window.open('https://t.me/hamster_key_v1', '_blank');
     });
 
     const generateClientId = () => {
